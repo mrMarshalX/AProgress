@@ -89,7 +89,7 @@
 			(function (i) {
 				setTimeout(function () {
 					dots[i].classList.add(Settings.animation.className);
-				}, i * 300);
+				}, i * 400);
 			})(i);
 		}
 
@@ -112,7 +112,7 @@
 		}
 
 		barTemplate.triggerEvent('aprogress-done', {
-			'callee': 'AProgree.done',
+			'callee': 'AProgress.done',
 			'settings': AProgress.settings
 		});
 	};
